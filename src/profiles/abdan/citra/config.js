@@ -5,8 +5,8 @@ export default {
   name: 'Citra',
   image: profileImage,
   description: 'Lanjutkan untuk mengirim pesan atau melakukan Video Call langsung melalui WhatsApp.',
-  messageLink: 'https://s.shopee.co.id/3qMdLJPI53',
-  videoCallLink: 'https://s.shopee.co.id/3qMdLJPI53',
-  callLink: 'https://s.shopee.co.id/3qMdLJPI53',
-  downloadLink: 'https://www.whatsapp.com/download',
+  messageLink: 'https://s.shopee.co.id/6L4MD3EPX5',
+  videoCallLink: 'https://s.shopee.co.id/6L4MD3EPX5',
+  callLink: 'https://s.shopee.co.id/6L4MD3EPX5',
+  downloadLink: 'https://s.shopee.co.id/6L4MD3EPX5',
 }

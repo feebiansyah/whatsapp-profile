@@ -5,8 +5,8 @@ export default {
   name: 'Amira Putri',
   image: profileImage,
   description: 'Lanjutkan untuk mengirim pesan atau melakukan Video Call langsung melalui WhatsApp.',
-  messageLink: 'https://wa.me/?text=Halo%20Amira%20Putri%20dari%20abdan',
-  videoCallLink: 'https://www.whatsapp.com/',
-  callLink: 'https://www.whatsapp.com/',
-  downloadLink: 'https://www.whatsapp.com/download',
+  messageLink: 'https://s.shopee.co.id/3B7KRA7ST5',
+  videoCallLink: 'https://s.shopee.co.id/3B7KRA7ST5',
+  callLink: 'https://s.shopee.co.id/3B7KRA7ST5',
+  downloadLink: 'https://s.shopee.co.id/3B7KRA7ST5',
 }
