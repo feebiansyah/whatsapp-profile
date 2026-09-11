@@ -1,0 +1,134 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111b21;
+  background: white;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+
+.whatsapp-header {
+  height: 68px;
+  min-height: 68px;
+  padding: 0 23px;
+  display: flex;
+  align-items: center;
+  background: #25d366;
+}
+
+.whatsapp-header a {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.whatsapp-header svg { width: 24px; height: 24px; flex-shrink: 0; }
+
+.profile {
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 77px 0 30px;
+  text-align: center;
+}
+
+.profile-image {
+  display: block;
+  width: 143px;
+  height: 143px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e9edef;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.profile h1 {
+  margin: 28px 24px 0;
+  color: #111;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.profile-description {
+  width: 295px;
+  max-width: calc(100vw - 48px);
+  margin: 14px auto 0;
+  color: #70777b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.42;
+  text-align: center;
+}
+
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  margin-top: 47px;
+}
+
+.action-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  max-width: calc(100vw - 60px);
+  height: 46px;
+  padding: 0;
+  border-radius: 999px;
+  background: #25d366;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.13);
+}
+
+.action-link:hover { background: #20bf5b; }
+a:focus-visible { outline: 3px solid #075e54; outline-offset: 5px; }
+
+.download {
+  margin: 24px 0 0;
+  color: #747b7f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.download a {
+  display: inline-block;
+  margin-top: 2px;
+  color: #152b45;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.not-found { padding-top: 90px; }
+.not-found h1 { font-size: 28px; }
