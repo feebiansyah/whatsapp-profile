@@ -2,7 +2,7 @@
 
 // Contoh sementara: ganti ketiga tautan dengan tujuan asli karakter ini.
 export default {
-  name: 'Citra',
+  name: 'Yasmin Napper',
   image: profileImage,
   description: 'Lanjutkan untuk mengirim pesan atau melakukan Video Call langsung melalui WhatsApp.',
   messageLink: 'https://s.shopee.co.id/20vN3TLDFe',
